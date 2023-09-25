@@ -19,7 +19,7 @@ export async function getStaticProps() {
   await fetch(url)
     .then((res) => res.json())
     .then((response) => {
-      products = response
+      products = response.products
     })
     .catch((err) => console.log(err))
 
