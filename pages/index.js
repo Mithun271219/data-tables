@@ -3,7 +3,6 @@ import styles from '@/styles/Home.module.css'
 import Table from '@/Components/DataTable'
 
 export default function Home({ data }) {
-  console.log(data)
   return (
     <>
       <Table products={data} />
